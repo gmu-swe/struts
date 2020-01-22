@@ -28,6 +28,8 @@
 
 <struts>
     <!--  Overwrite Convention -->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+
     <constant name="struts.convention.action.suffix" value="Controller"/>
     <constant name="struts.convention.action.mapAllMatches" value="true"/>
     <constant name="struts.convention.default.parent.package" value="rest-default"/>
